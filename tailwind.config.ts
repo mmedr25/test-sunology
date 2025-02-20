@@ -262,6 +262,11 @@ export default {
           '50%': { 'box-shadow': '0px 0px 20px 0px rgba(0, 255, 41, 0.80)' },
           '100%': { 'box-shadow': '0px 0px 0px 0px rgba(0, 255, 41, 0.80)' }
         },
+        sunny: {
+          // '0%, 100%': { background: 'linear-gradient(270deg, #EDFF00 2.33%, rgba(237, 255, 0, 0.30) 97.67%)' },
+          '0%': { background: 'rgba(255, 255, 255)' },
+          '100%': { background: 'linear-gradient(90deg, #EDFF00 2.33%, rgba(237, 255, 0, 0.30) 97.67%)' },
+        },
         infiniteTranslateX: {
           '0%': {
             transform: 'translateX(0)'
@@ -359,7 +364,9 @@ export default {
         'energy-pulse-dot':
           '2s ease-in-out 0s infinite normal none running energy-pulse-dot',
         'energy-powerline':
-          '20s linear 0s infinite normal none running energy-powerline'
+          '20s linear 0s infinite normal none running energy-powerline',
+        sunny: "sunny 1s ease-in-out forwards",
+
       }
     }
   },
